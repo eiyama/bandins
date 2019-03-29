@@ -1,0 +1,42 @@
+
+/* 头部 */
+
+/*车商版详情页（点击显示）*/
+.pageCar{min-height: 1400px;width: 1200px;margin: 0 auto;}
+.pageCar .title{font-size: 14px;height:59px;line-height: 59px;margin-left:22px; }
+.pageCar .title p{float: left;color:#d1d1d1}
+.pageCar .title h3{float: left;color: #adadad}
+.pageCar .banner{height: 322px;width: 1200px;}
+.pageCar .case_features{height: 348px;width: 1198px;border: 1px solid #eeeeee;margin: 0 auto;margin-top: 40px;background: #ffffff}
+.pageCar .case_features .case_features_title{display: block;height: 115px;width: 1158px;margin-left: 40px;}
+.pageCar .case_features .case_features_title h3{font-size: 25px;color: #303030;margin-top: 33px;}
+.pageCar .case_features .case_features_title p{font-size: 14px;color: #a7a7a7;margin-top: 24px;}
+.pageCar .case_features ul li{float: left;width:202px;height: 150px;margin:0 50px;}
+.pageCar .case_features ul li i{display: block;float: left}
+.pageCar .case_features .case_features_message{float: left;margin-left: 21px;width: 132px;}
+.pageCar .case_features .case_features_message h3{font-size: 12px;color:#7c7c7c;line-height: 20px;}
+.pageCar .case_features .case_features_message p{color:#cacaca;font-size: 11px;margin-top:10px; }
+.pageCar .case_features .case_features_message a{margin-top: 20px;display: block;font-size: 11px;color: #7993e9;}
+.pageCar .case_features .case_features_message a i{float: left;}
+.pageCar .case_features .case_features_message a em{float: left;margin-left: 6px;}
+
+.pageCar .dfnf{height: 370px;background: #ffffff;width: 1120px;border: 1px solid #eeeeee;margin-top: 40px;padding:20px 39px 44px 39px ;}
+.pageCar .dfnf h3{height: 72px;font-size: 22px;color: #303030;padding-top:20px; }
+.pageCar .dfnf .dfnf_detail{border-top: 1px solid #eee;border-bottom: 1px solid #eee;height: 280px;width: 1120px;}
+.pageCar .dfnf .dfnf_logo{float: left;margin-top: 35px;margin-left: 44px;height: 120px;width: 120px;}
+.pageCar .dfnf .ylcx{float: left;margin-left:94px;width:860px;height: 280px;}
+.pageCar .dfnf .ylcx span{height: 75px;margin-top: 34px; width: 690px;display: block}
+.pageCar .dfnf .ylcx span p{font-size: 12px;color: #7c7c7c;line-height: 20px;}
+.pageCar .dfnf .ylcx .ylcx_detail{height: 140px;width:690px; }
+.pageCar .dfnf .ylcx .ylcx_detail .ylcx_logo{float: left;margin-top: 6px; }
+.pageCar .dfnf .ylcx .ylcx_detail .ylcx_font{float: left;border-left: 1px solid #eeeeee;height: 140px;width: 300px;padding-left:32px; margin-left: 44px;}
+.pageCar .dfnf .ylcx .ylcx_detail .ylcx_font h4{font-size: 12px;color: #a7a7a7}
+.pageCar .dfnf .ylcx .ylcx_detail .ylcx_font ul{margin-top: 27px;height: 46px;}
+.pageCar .dfnf .ylcx .ylcx_detail .ylcx_font ul li{height: 25px;}
+.pageCar .dfnf .ylcx .ylcx_detail .ylcx_font ul li p{float: left;font-size:12px;color: #7c7c7c;margin-top: 7px;}
+.pageCar .dfnf .ylcx .ylcx_detail .ylcx_font ul li b{font-size: 19px;color: #474747;margin-left: 5px;}
+.pageCar .dfnf .ylcx .ylcx_detail .ylcx_font h5{font-size: 12px;color: #a7a7a7;margin-top:18px;}
+
+
+/* 底部 */
+

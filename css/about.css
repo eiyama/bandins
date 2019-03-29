@@ -1,0 +1,57 @@
+
+/* 轮播图 */
+.banner{width: 100%;height: 580px;background: #808080}
+.banner{width: 100%;min-width:1200px;height:500px;overflow:hidden;position: relative;}
+.banner h3 { text-align: center; font-size: 60px; color: #fff; line-height: 450px; }
+.banner1{background: #1f1f1f url(../img/Home_banner1.png) no-repeat center;position: absolute;left:0px;top:0px;width: 100%;height:500px;}
+.banner2{background: #186b75 url(../img/Home_banner2.png) no-repeat center;position: absolute;left:0px;top:0px;width: 100%;height:500px;}
+.banner3{background: #080b0b url(../img/Home_banner3.png) no-repeat center;position: absolute;left:0px;top:0px;width: 100%;height:500px;}
+.banner4{background: #0f2249 url(../img/Home_banner4.png) no-repeat center;position: absolute;left:0px;top:0px;width: 100%;height:500px;}
+.banner5 {background: url(../img/Home_banner5.png) no-repeat center;position: absolute;left:0px;top:0px;width: 100%;height:500px;}
+.banner6 {background: url(../img/Home_banner6.png) no-repeat center;position: absolute;left:0px;top:0px;width: 100%;height:500px;}
+.banner7 {background: url(../img/Home_banner7.jpg) no-repeat center;position: absolute;left:0px;top:0px;width: 100%;height:500px;}
+.banner .d2{width:100%;height:30px;clear:both;position:absolute;z-index:100;left:0px;bottom:10px;}
+.banner .d2 ul {position:absolute;left:50%;top:0;margin:0 0 0 -50px;display:inline;}
+.banner .d2 li { overflow:hidden;cursor:pointer;border:1px solid #fff;border-radius: 40px;margin:0 3px;display:inline;}
+.banner .d2 li.nuw {background:#fff;}
+.banner-mod{width: 1200px;margin:0 auto;padding-top: 110px;}
+.banner-tool{width: 490px;float: right; margin-top: 70px;}
+.banner-mod p{font-size: 20px;color: #fff;line-height: 20px;}
+.banner-mod h2{font-size: 48px;color: #fff;padding:20px 0;}
+.banner-mod a{display: block;width: 170px;height: 40px;border-radius: 80px;border: 1px solid #fff;font-size: 16px;color: #fff;text-align: center;line-height: 40px; transition: background 1s; -moz-transition: background 1s; -webkit-transition: background 1s; -o-transition: background 1s; }
+.banner-mod a:hover{background: #fff;color: #1d7eeb;}
+
+
+
+.title{padding:62px 0;text-align: center;}
+.title h3{font-size: 38px;color: #404040;}
+.title p{color: #888;}
+.paragraph{padding-bottom: 60px;}
+.paragraph h4{font-size: 20px;color: #404040;line-height: 40px;padding-bottom: 5px;}
+.paragraph em{display: block;width: 40px;border-top:1px solid #404040;}
+.paragraph p{padding-top: 15px;line-height: 20px;font-size: 14px;color: #888;}
+.paragraph img{padding:10px 0;}
+.main-partner{text-align: center;}
+.main-partner .partner-list li { display: inline-block; margin:20px;width:180px;text-align:center;}
+.main-partner .partner-list img { display: block; width: 120px; height: 120px; margin: 0 auto; }
+.main-partner .partner-list em {display: block;color: #888;}
+
+/*关于我们*/
+.main-about { position: relative; top: -50px; width: 1200px; margin: 0 auto; background-color: #fff; z-index: 9; }
+.main-about .home-nav { width: 100%; height: 50px; border-bottom: 1px solid #eee; text-align: center; font-size: 16px; color: #808080; }
+.main-about .home-nav li { position: relative; display: inline-block; width: 164px; line-height: 50px; cursor: pointer; }
+.main-about .home-nav li:hover,
+.main-about .home-nav li.cur { color: #0070D3; }
+.main-about .home-nav li.cur:after { content: ''; position: absolute; left: 70px; bottom: -1px; width: 30px; height: 2px; background-color: #0070D3; }
+.about-cont { padding: 60px 182px; font-size: 14px; color: #808080; }
+.about-cont li { display: none; }
+.about-cont li.cur { display: block; }
+.about-cont .cont-hd { margin-bottom: 38px; }
+.about-cont .cont-title { float: left; line-height: 24px; font-size: 40px; color: #202020; }
+.about-cont .cont-title em { font-size: 16px; color: #808080; }
+.about-cont .cont-hd .cont { float: right; width: 510px; }
+.about-cont .cont-hd .cont > p { margin-bottom: 12px; }
+.about-cont .cont-img { width: 100%; height: auto; }
+.about-cont .contact { float: right; width: 300px; padding-left: 20px; margin-bottom: 14px; border-left: 1px solid #B0B0B0; }
+.about-cont .contact h3 { font-size: 12px; color: #202020; }
+

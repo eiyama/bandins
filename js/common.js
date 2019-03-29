@@ -79,3 +79,14 @@ $(function(){
         $('#aboutCont li').eq(index).addClass('cur').siblings().removeClass('cur');
     });
 });
+
+
+$(function () {
+    $("#scanCode").hide();
+    $("#scanCode_icon").hover(function () {
+        $("#scanCode").show();
+
+    }, function () {
+        $("#scanCode").hide();
+    })
+});

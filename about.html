@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>深圳市邦德布拉泽科技有限公司</title>
-	<link href="css/index.css" rel="stylesheet" type="text/css" />
+	<link href="css/about.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/common.css">
 	<link rel="shortcut icon"  href="iconname.ico" />
 	<script src="js/jquery-1.10.2.min.js"></script>
 	<script src="js/isPc.js"></script>
@@ -14,8 +15,17 @@
         	<div id="logo" class="logo"><a href="/" target="_self" class="hide-text" title="首页"></a></div>
         	<ul class="nav-item">
         		<li><a href="index.html">首页</a></li>
-        		<li><a href="product.html">产品版本</a></li>
-        		<li class="cur"><a href="about.html">关于我们</a></li>
+        		<li><a href="solution.html">解决方案</a></li>
+				<li class="cur"><a href="about.html">关于我们</a></li>
+				<div class="QR_code">
+						<span></span>
+						<div id="scanCode_icon">
+							<img src="img/code_03.gif" alt="">
+						</div>
+						<div id="scanCode">
+							<img src="img/scancode.jpg" alt="">
+						</div>
+					</div>
         	</ul>
         </div>
 	</div>
@@ -79,11 +89,56 @@
 			</li>
 		</ul>
 	</div>
-	
-	<div class="footer">
-		<p>深圳市宝安区宝安大道5010号西部硅谷B座B区606室  </p>
-		<p>©2017.  深圳市邦德布拉泽科技有限公司 <a target="_blank" href="http://www.miibeian.gov.cn/"> 粤ICP备17094381号 </a></p>
+	<div class="Footer">
+			<div class="footer">
+				<div class="box">
+				<div class="footer_left">
+					<dl>
+						<dt>解决方案</dt>
+						<dd>车商版</dd>
+						<dd>经代版</dd>
+						<dd>移动端</dd>
+					</dl>
+					<dl>
+						<dt>支持</dt>
+						<dd>系统演示</dd>
+						<dd>帮助中心</dd>
+						<dd>售后服务</dd>
+					</dl>
+					<dl>
+						<dt>邦德科技</dt>
+						<dd>关于我们</dd>
+						<dd>团队风采</dd>
+						<dd>加入我们</dd>
+						<dd>诚信资质</dd>
+					</dl>
+				</div>
+				<ul class="footer_right">
+						<dl>
+								<dt>联系我们</dt>
+								<dd><i><img src="img/footer_03.png" alt=""></i><em>18123935790</em></dd>
+								<dd><i><img src="img/footer_07.png" alt=""></i><em>zhiming.qian@bandins.com</em></dd>
+								<dd><i><img src="img/footer_11.png" alt=""></i><em>深圳市宝安区宝安大道5010号西部硅谷B座B区606</em></dd>
+						</dl>
+				</ul>
+			</div>
+			<span>
+				<p> ©2017-2018 邦德科技.BAND OF BROGTHERS lnc Ltd<a target="_blank" href="http://www.miibeian.gov.cn/"> 粤ICP备17094381号 </a></p>
+			</span>	
+		</div>	
 	</div>
+		
 	<script type="text/javascript" src="js/common.js"></script>
+	<script>
+			$(function () {
+			   $("#scanCode").hide();
+			   $("#scanCode_icon").hover(function () {
+				   $("#scanCode").show();
+   
+			   }, function () {
+				   $("#scanCode").hide();
+			   })
+		   });
+	   </script>
 </body>
 </html>

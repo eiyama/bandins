@@ -1,0 +1,187 @@
+
+/* main主体部分 */
+/* 每个功能隔一行或有备注 */
+.solution_main{background: #f7f7f7;min-height: 4360px;margin: 0 auto} 
+/* 轮播图 */
+.banner{height: 360px;width: 100%;}
+/* 车险中介 */
+.solution_main .nav_serveBox{height: 200px;background: #ffffff;width: 100%;}
+.solution_main .nav_serveBox .nav_serve{width: 1160px;margin: 0 auto;}
+.solution_main .nav_serveBox .nav_serve li{height: 160px;width: 385px;border-right: 1px solid #eeeeee;text-align: center; float: left;margin: 0 auto;margin-top: 20px;position: relative;}
+.solution_main .nav_serveBox .nav_serve li span{display: block;height: 160px;}
+.solution_main .nav_serveBox .nav_serve li img{margin-top: 18px;}
+.solution_main .nav_serveBox .nav_serve li p{font-size: 15px;margin-top: 12px;color: #303030;}
+/* 车险业务car_insurance */
+.solution_main .car_insurance{background: #ffffff;border: 1px solid #eeeeee;min-height: 1718px;width:1158px;margin:0 auto;margin-top: 76px; }
+.solution_main .car_insurance .main_title{padding: 42px 0 78px 0;margin-left: 41px;}
+.solution_main .car_insurance .main_title h3{font-size:30px;color:#303030;}
+.solution_main .car_insurance .main_title p{font-size: 14px;color: #bcbcbc;width: 868px;margin-top: 12px;}
+.solution_main .car_insurance .car_dealer{height: 200px;margin:auto;padding:0 98px 0 98px; }
+.solution_main .car_insurance .car_dealer li{float: left;width: 460px;height: 200px;}
+.solution_main .car_insurance .car_dealer .financial_Versions{margin-left: 40px; }
+.solution_main .car_insurance .system_function{height: 400px;margin-top: 100px;}
+.solution_main .car_insurance .system_function .system_function_title{margin-left:40px;display: block;height: 58px; }
+.solution_main .car_insurance .system_function .system_function_title i{float: left}
+.solution_main .car_insurance .system_function .system_function_title p{font-size: 15px;color: #6b6b6b;margin-left:11px; float: left;}
+/* 车险系统及服务模块 */
+.solution_main .car_insurance .system_function .system_function_case {height: 340px;margin-left: 50px;}
+.solution_main .car_insurance .system_function .system_function_case li{width: 200px;float: left;height: 115px;margin-right: 20px;}
+.solution_main .car_insurance .system_function .system_function_case li i{float: left}
+.solution_main .car_insurance .system_function .system_function_case li span{float: left;width: 132px;margin-left: 18px;}
+.solution_main .car_insurance .system_function .system_function_case li h4{font-size:14px;color:#7c7c7c;}
+.solution_main .car_insurance .system_function .system_function_case li p{font-size: 11px;color:#cacaca;margin-top:6px;}
+/* 车险系统架构 */
+.solution_main .car_insurance .system_function .system_function_framework{height: 800px;}
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show
+{width: 858px;height: 634px;margin: 0 auto;margin-top:24px; }
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .interaction_show_left
+{width:632px;height:640px; float: left;}
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .interaction_show_title
+{height: 42px;width: 630px;border-bottom: 4px solid #f5f5f5;position: relative;}
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .interaction_show_title h3
+{float: left;font-size: 15px;color: #b8b8b8;line-height: 42px;width: 50px;text-align: center}
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .interaction_show_title ul
+{ float: left;margin: 0 auto;height: 42px;padding:0 195px 0 177px;}
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .interaction_show_title ul li
+{float: left;margin-right: 42px;}
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .interaction_show_title .arrows{position: absolute;bottom:-31px;left: 48%;}
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .interaction_show_title ._arrows{position: absolute;bottom:-31px;left: 51%;}
+
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .platform
+{height: 112px;width: 630px;margin-top: 24px;background: #f5f5f5;position: relative;}
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .platform .platform_title
+{background: #8c8f9a;display: block;float: left; padding: 40px 18px;}
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .platform .platform_title h3
+{line-height: 16px;width: 1em;color: #ffffff;font-size: 15px;font-weight: 800; }
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .platform .platform_case
+{float: left;width: 400px;height: 90px;margin-top: 21px;margin-left: 25px; }
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .platform .platform_case span
+{display: block;height: 44px; width: 400px;}
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .platform .platform_case span i
+{display: block;height: 32px;width: 48px;float: left;}
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .platform .platform_case span p
+{height:32px;line-height: 32px; float: left ;font-size: 10px;color:#808080}
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .platform .arrows2{position: absolute;bottom:-23px;left: 48%;}
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .platform ._arrows2{position: absolute;bottom:-24px;left: 51%;}
+
+/* 交互展示  */
+ .process{width:630px;height: 310px;margin-top: 19px;position: relative;}
+ .process span{background: #8c8f9a;display: block;float: left; padding: 120px 18px 126px 18px; }
+ .process span h3{width: 1em;color: #ffffff;font-size: 15px;font-weight: 800;line-height: 16px; }
+ .process_box{float: left;background: #f5f5f5;padding: 10px;width: 559px;height: 290px;}
+ .process .process_box li{height: 90px;width: 559px;background: #ffffff;}
+ .process .process_box #branch dl{padding: 30px 35px 30px 10px;float: left;}
+ .process .process_box #branch dl p{line-height: 16px;font-size: 15px;color: #606060;width: 1em}
+ .process .process_box #branch .proces_details{width: 559px;height: 58px;padding: 6px 0 16px 0;}
+ .process .process_box #branch .proces_details dd
+ {width:68px;height: 22px; float: left; margin-top: 10px;border: 1px solid #999999;text-align: center;line-height: 22px;font-size:12px;color:#919191;background: #f5f5f5;margin-right: 10px; }
+
+ .process .process_box #filiale{margin-top: 10px;}
+ .process .process_box #filiale dl{padding: 22px 11px 22px 10px;float: left;}
+ .process .process_box #filiale dl p{line-height: 16px;font-size: 15px;color: #606060;width: 1em}
+ .process .process_box #filiale .filiale_details{display: flex;height:90px;width: 460px;padding:0 30px; justify-content:space-between ;align-items: center;float: left; }
+ .process .process_box #filiale .filiale_details dd{width:68px;height: 22px;border: 1px solid #999999;text-align: center;line-height: 22px;font-size:12px;color:#919191;background: #f5f5f5;}
+
+ .process .process_box #head_office{margin-top: 10px;}
+ .process .process_box #head_office dl{padding: 22px 11px 22px 10px;float: left;}
+ .process .process_box #head_office dl p{line-height: 16px;font-size: 15px;color: #606060;width: 1em}
+ .process .process_box #head_office .head_office_details{display: flex;height:90px;width: 460px;padding:0 30px; justify-content:space-between ;align-items: center;float: left; }
+ .process .process_box #head_office .head_office_details dd{width:68px;height: 22px;border: 1px solid #999999;text-align: center;line-height: 22px;font-size:12px;color:#919191;background: #f5f5f5;}
+ 
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .process .arrows3{position: absolute;bottom:-23px;left: 48%;}
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .process ._arrows3{position: absolute;bottom:-24px;left: 51%;}
+
+ .data{height: 102px;width: 630px;margin-top: 20px;background: #f5f5f5;}
+ .data .data_title{background: #8c8f9a;display: block;float: left; padding: 35px 18px;}
+.data .data_title h3{line-height: 16px;width: 1em;color: #ffffff;font-size: 15px;font-weight: 800;}
+.data img{float: left;display: block;margin-top:25px;margin-left: 36px; }
+.data .data_server{float: left;font-size: 14px;margin-top: 36px;margin-left: 46px;color: #6d6d6d; }
+
+.solution_main .car_insurance .system_function .system_function_framework .interaction_show .interaction_show_right
+{margin-left: 36px;float:left; width: 190px;height: 640px;}
+.interaction_show_right .interaction_show_Rtop{height: 265px;width: 190px;background: #f5f5f5;margin-top: 70px;position: relative}
+.interaction_show_right .interaction_show_Rtop ul{margin-left: 26px;padding-top:8px; }
+.interaction_show_right .interaction_show_Rtop li{text-align: center; line-height: 42px;width: 138px;height: 42px;margin-top: 13px; font-size: 15px;color: #e2dcf0;background: #8161c2;}
+.interaction_show_right .interaction_show_Rtop .arrows4{position: absolute;left: -38px;top: 160px;}
+.interaction_show_right .interaction_show_Rtop ._arrows4{position: absolute;left: -38px;top: 177px;}
+.interaction_show_right .interaction_show_Rbottom{height:265px;width: 190px;margin-top: 30px;background: #f5f5f5;position: relative}
+.interaction_show_right .interaction_show_Rbottom ul{margin-left: 26px;padding-top:8px;}
+.interaction_show_right .interaction_show_Rbottom li{text-align: center; line-height: 42px;width: 138px;height: 42px;margin-top: 13px; font-size: 15px;color: #dce1f0;background: #617dc2;}
+.interaction_show_right .interaction_show_Rbottom .arrows5{position: absolute;left: -38px;top: 180px;}
+.interaction_show_right .interaction_show_Rbottom ._arrows5{position: absolute;left: -38px;top: 197px;}
+
+/* 通用服务 */
+.solution_main .universal_server{height: 1050px;width: 1158px;border: 1px solid #eeeeee;margin: 0 auto;background: #fff;margin-top: 60px;}
+.solution_main .universal_server .universal_server_title{padding:42px 0 58px 30px; }
+.solution_main .universal_server .universal_server_title h3{font-size: 37px;color:#303030;}
+.solution_main .universal_server .universal_server_title p{font-size: 14px;color: #a0a0a0;margin-top:5px; }
+.solution_main .universal_server .deploy_case{height: 240px;width: 1098px;border: 1px solid #eeeeee;margin: 0 auto;}
+.solution_main .universal_server .deploy_case .deploy_case_font{float: left;width: 122px;height:128px; background: #5079df;padding: 56px 24px;text-align: center; }
+.solution_main .universal_server .deploy_case .deploy_case_font h3{font-size: 18px;color: #ffffff;}
+.solution_main .universal_server .deploy_case .deploy_case_font p{font-size: 12px;color: #c5d0f2;margin-top:20px; }
+.solution_main .universal_server .deploy_case ul{height: 240px; display: flex;display: -webkit-flex;justify-content:space-around;align-items: center;}
+.solution_main .universal_server .deploy_case ul li{justify-content: center;align-content: center;text-align: center;}
+.solution_main .universal_server .deploy_case ul li i{display: block;}
+.solution_main .universal_server .deploy_case ul li h4{font-size: 14px;color:#303030;margin-top:12px; }
+.solution_main .universal_server .deploy_case ul li p{font-size: 12px;color: #9e9e9e;margin-top: 6px;}
+
+.solution_main .universal_server .customization{height: 238px;border: 1px solid #eeeeee;margin:auto;margin-top: 40px;width: 1098px; }
+.solution_main .universal_server .customization .customization_font{float: left;width: 122px;height:128px; background: #5079df;padding: 56px 24px;text-align: center; }
+.solution_main .universal_server .customization .customization_font h3{font-size: 18px;color: #ffffff;}
+.solution_main .universal_server .customization .customization_font p{font-size: 12px;color: #c5d0f2;margin-top:20px; }
+.solution_main .universal_server .customization .flow_chart{height: 180px;float: left;margin-top: 29px;margin-left: 40px;}
+.solution_main .universal_server .customization .flow_chart p{text-align: center;font-size: 11px;color: #5079df;margin-top: 13px;}
+.solution_main .universal_server .customization .flow_chart .project_begin{ position: relative;width: 120px;height: 180px;float: left;background: #f5f5f5}
+.solution_main .universal_server .customization .flow_chart .project_begin #_flow{position: absolute;right: -20px;top: 82px;}
+
+.solution_main .universal_server .customization .flow_chart .project_begin li
+{margin: 0 auto;height: 80px;font-size: 15px;color:#5f51d4; width: 98px;background: #d5d0fc;border-radius: 10%;text-align: center;line-height: 80px;margin-top: 50px;}
+.solution_main .universal_server .customization .flow_chart .project_tracking
+{margin-left: 10px; width: 600px;height: 180px;float: left;background: #f5f5f5}
+.solution_main .universal_server .customization .flow_chart .project_tracking ul
+{padding-left: 16px;width: 570px;height: 130px;}
+.solution_main .universal_server .customization .flow_chart .project_tracking li
+{position: relative;float: left;margin-right: 20px;height: 80px;font-size: 15px;color:#5f51d4; width: 98px;background: #d5d0fc;border-radius: 10%;text-align: center;line-height: 80px;margin-top: 50px;}
+.solution_main .universal_server .customization .flow_chart .project_tracking li #_flow{position: absolute;top:10px;right: -20px;}
+.solution_main .universal_server .customization .flow_chart .project_finish
+{float: left;width: 120px;height: 180px;background: #f5f5f5;margin-left: 10px;position: relative;}
+.solution_main .universal_server .customization .flow_chart .project_finish li
+{margin: 0 auto; height: 80px;font-size: 15px;color:#5f51d4; width: 98px;background: #d5d0fc;border-radius: 10%;text-align: center;line-height: 80px;margin-top: 50px;}
+.solution_main .universal_server .customization .flow_chart .project_finish #_flow{position: absolute;top:82px;left: -10px;}
+
+.solution_main .universal_server .after_sales{height: 238px;border: 1px solid #eeeeee;margin:auto;margin-top: 40px;width: 1098px; }
+.solution_main .universal_server .after_sales .after_sales_font{float: left;width: 122px;height:128px; background: #5079df;padding: 56px 24px;text-align: center; }
+.solution_main .universal_server .after_sales .after_sales_font h3{font-size: 18px;color: #ffffff;}
+.solution_main .universal_server .after_sales .after_sales_font p{font-size: 12px;color: #c5d0f2;margin-top:20px; }
+.solution_main .universal_server .after_sales .after_sales_case ul{float: left;}
+.solution_main .universal_server .after_sales .after_sales_case li{height: 135px;width: 230px;float: left;text-align: center;padding-top: 45px; margin-top: 30px;border-right:1px solid #eeeeee; }
+.solution_main .universal_server .after_sales .after_sales_case li p{color:#303030;font-size: 15px;margin-top: 16px;}
+
+.solution_main .Third_party_docking{height: 620px;width: 1100px;border: 1px solid #eeeeee;margin: 0 auto;margin-top: 60px;background: #ffffff;padding:0 29px; }
+.solution_main .Third_party_docking .docking_title{width: 1100px;height: 220px;border-bottom:1px solid #eeeeee }
+.solution_main .Third_party_docking .docking_title h3{margin-top: 40px;font-size: 30px;color: #303030;}
+.solution_main .Third_party_docking .docking_title .docking_title_text{font-size: 14px;color:#a0a0a0;margin-top: 7px;line-height: 24px;}
+.solution_main .Third_party_docking .insurance_agency h3{margin-left:48px; font-size: 18px;color:#303030;margin-top:35px;font-weight: 700 }
+.solution_main .Third_party_docking .insurance_agency p{margin-left:20px;margin-right: 30px; font-size:14px;color: #7d7f82;margin-top: 22px}
+.solution_main .Third_party_docking .insurance_agency .page_skip{margin-top: 60px;}
+.solution_main .Third_party_docking .insurance_agency{position: relative;}
+.solution_main .Third_party_docking .insurance_agency i{position: absolute;top:0px;left: 20px;}
+
+ .page_skip {position: relative;width: 585px;}
+ #list{position: absolute;background: #4975e5; opacity: 0.9;;top: 0;left: 0;bottom: 0;color: #ffffff;text-align: center;line-height: 110px; float: left;font-size: 16px;width: 280px;height: 110px;}
+.solution_main .Third_party_docking .insurance_agency .page_skip li{text-align: center;line-height: 110px; float: left;font-size: 16px;border: 1px solid #000000;width: 280px;height: 110px;}
+
+.solution_main .Third_party_docking .insurance_agency .page_skip li a{color:#000000;font-weight: 900}
+.solution_main .Third_party_docking .insurance_agency .page_skip #skip_h5{margin-left: 20px;}
+#_list{position: absolute;background: #4975e5; opacity: 0.9;top: 0;right: 0;bottom: 0;color: #ffffff;text-align: center;line-height: 110px; float: left;font-size: 16px;width: 280px;height: 110px;}
+/* 解决方案页面main结束 */
+
+
+
+
+
+
+
+
+
+
